@@ -7,5 +7,5 @@ function updateTime() {
     timeElement.textContent = `${hours}:${minutes}:${seconds}`;
 }
 
-setInterval(updateTime, 1000);
+setInterval(updateTime, 0.1);
 updateTime(); // Initial call to display time immediately
